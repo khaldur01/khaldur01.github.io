@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Skeever Travieso</title>
+    <link rel="stylesheet" href="../01-inicio/estilos.css">
+</head>
+<body onload="reproducirAudio()">
+    <!-- Audio de fondo -->
+    <audio id="audioFondo" loop>
+        <source src="../audio/The Elder Scrolls Online - Main Theme.MP3" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+
+    <!-- Botón para controlar la música -->
+    <button id="controlMusica">Pausar música</button>
+
+    <!-- Control deslizante para ajustar el volumen -->
+    <label for="volumen">Volumen:</label>
+    <input type="range" id="volumen" min="0" max="100" value="50">
+
+    <nav>
+        <ul>
+            <li><a href="../01-inicio/index.html">Inicio</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#historia">Historia</a></li>
+            <li><a href="#personajes">Personajes</a></li>
+            <li><a href="#clases">Clases</a></li>
+            <li><a href="#razas">Razones</a></li>
+            <li><a href="#mapa">Mapa</a></li>
+            <li><a href="#misiones">Misiones</a></li>
+            <li><a href="#pvp">PvP</a></li>
+            <li><a href="#pve">PvE</a></li>
+            <li><a href="#guildas">Guildas</a></li>
+            <li><a href="#eventos">Eventos</a></li>
+        </ul>
+    </nav>
+
+    <section id="clases">
+        <h2>Clases</h2>
+        <p>En The Elder Scrolls Online, los jugadores pueden elegir entre varias clases, cada una con habilidades y estilos de juego únicos. Las clases disponibles son:</p>
+        <ul>
+            <li><strong>Guerrero:</strong> Especializado en combate cuerpo a cuerpo y resistencia.</li>
+            <li><strong>Mago:</strong> Maestro de la magia, capaz de lanzar poderosos hechizos.</li>
+            <li><strong>Explorador:</strong> Hábil en el sigilo y el uso de arcos.</li>
+            <li><strong>Caballero:</strong> Combina habilidades de combate y magia.</li>
+            <li><strong>Asesino:</strong> Especializado en el sigilo y el daño crítico.</li>
+        </ul>
+        <p>Cada clase tiene su propio árbol de habilidades, lo que permite a los jugadores personalizar su estilo de juego y adaptarse a diferentes situaciones.</p>
+    
+</body>
+<script src="../01-inicio/scripts.js"></script>
+</html>

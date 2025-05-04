@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Skeever Travieso</title>
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+<body onload="reproducirAudio()">
+    <!-- Audio de fondo -->
+    <audio id="audioFondo" loop>
+        <source src="../audio/The Elder Scrolls Online - Main Theme.MP3" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+
+    <!-- Botón para controlar la música -->
+    <button id="controlMusica">Pausar música</button>
+
+    <!-- Control deslizante para ajustar el volumen -->
+    <label for="volumen">Volumen:</label>
+    <input type="range" id="volumen" min="0" max="100" value="50">
+
+    <h1>Bienvenidos a Tamriel!</h1>
+    <p id="subtitulo">Explora el mundo de The Elder Scrolls Online y descubre sus secretos.</p>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#historia">Historia</a></li>
+            <li><a href="#personajes">Personajes</a></li>
+            <li><a href="../02-clases/clases.html">Clases</a></li>
+            <li><a href="#razas">Razones</a></li>
+            <li><a href="#mapa">Mapa</a></li>
+            <li><a href="#misiones">Misiones</a></li>
+            <li><a href="#pvp">PvP</a></li>
+            <li><a href="#pve">PvE</a></li>
+            <li><a href="#guildas">Guildas</a></li>
+            <li><a href="#eventos">Eventos</a></li>
+        </ul>
+    </nav>
+    <section id="inicio">
+        <h2>Inicio</h2>
+
+        <p>El juego se ambienta en la Segunda Era, durante el año 583 de la SE, un tiempo de inestabilidad política. El príncipe daédrico Molag Bal se aprovecha de esta inestabilidad para tratar de extraer todo Tamriel a su reino, Puerto Gélido. Para lograr esto, utiliza dispositivos llamados áncoras oscuras, en donde el Gremio de luchadores tiene el objetivo de eliminar dichos objetos.
+
+        La familia Tharn, los actuales gobernantes de Cyrodiil, le pide a Mannimarco que reviva a sus tropas. Pero en secreto Mannimarco está conspirando con Molag Bal. El daedra comienza a cosechar las almas de los mortales. Un héroe conocido como El Desalmado, un mortal cuya alma fue tomada por lo que puede revivir constantemente, se encargará de parar esto</p>
+
+        <p>Podréis encontrar tanto el juego base como mucho más contenido en la web de <a href="https://www.elderscrollsonline.com/es/agegate?URL=%2fes%2fjoinus" target="_blank">Elder Scrolls online</a></p>
+    </section>
+    <script src="./scripts.js"></script>
+</body>
+</html>
